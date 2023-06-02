@@ -1,0 +1,102 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+.title {
+    background-color: antiquewhite;
+}
+
+.top-container {
+    padding: 50px;
+}
+
+.botton-container {
+    padding: 50px;
+}
+.text.container {
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    font-size: 4rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.5rem;
+}
+
+.pic-container>img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 5rem;  
+}
+
+.intro {
+    width: 50%;
+    margin: auto;
+}
+
+.intro>p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 0.7rem;
+}
+
+hr {
+    border: dotted gray 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.overall {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 60%;
+    margin: 50px auto 0 auto;
+    text-align: justify;
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+
+.first-skill {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.first-skill>p {
+    font-size: 0.7rem;
+}
+
+.contact {
+    font-family: 'Titillium Web', sans-serif;
+
+}
+.contact>p {
+    font-size: 0.7rem;
+}
+
+.contact>ul {
+    list-style: none;
+    font-size: 0.7rem;
+}
+
+footer {
+    background-color: antiquewhite;
+    padding: 50px 0 20px;
+}
+
+.contact-site {
+    display: block;
+}
+
+.contact-site>a {
+    color: firebrick;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+}
